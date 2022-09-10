@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./sel.jpg);
+    font-family:DM sans;
+    background-size: cover;
+}
+.navigation{
+    height:100px;
+    width: calc(100% - 500px);
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+color:rgb(253, 251, 251);
+text-decoration: none;
+text-transform: uppercase;
+font-size:large;
+padding: 15px;
+}
+.contact-us{
+    border:none;
+    font-size:large;
+    background-color: rgb(5, 142, 255);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.body{
+    height:calc(100vh - 100px);
+    width: calc(100% - 500px);
+    margin: 0 auto;
+    display: flex;
+}
+.image,.about_text{
+    height: 100%;
+    width: 100%;
+}
+.name{
+    font-size: x-large;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.detail{
+    padding-top: 40px;
+    font-size: xx-large;
+    font-style: inherit ;
+    color: rgb(255, 254, 253);
+}
+.para{
+    padding-top: 20px;
+    font-size: large;
+    font-style: oblique;
+    color: rgb(252, 249, 245);
+}
+.dev{
+    font-size: xx-large;
+    font-style: inherit;
+    color: rgb(6, 241, 190);
+}
+.but{
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: large;
+    padding: 5px;
+    margin: 10px 0px;
+     background-color: transparent;
+     border: 1px solid red;
+}
+.photo{
+    background-image: url(./jon.jpg);
+    background-size: cover;
+    height: 100%; 
+    width: 95%;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid aqua;
+}
